@@ -8,7 +8,7 @@ import it.epicode.BE_W5_Exam.utente.Utente;
 import it.epicode.BE_W5_Exam.utente.UtenteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
+
 
 import java.time.LocalDate;
 import java.util.List;
