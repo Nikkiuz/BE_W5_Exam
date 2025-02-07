@@ -4,16 +4,14 @@ import it.epicode.BE_W5_Exam.prenotazione.Prenotazione;
 import it.epicode.BE_W5_Exam.service.PrenotazioniService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
-import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
 import java.time.LocalDate;
 
-@Order(2)
+//@Order(2)
 @Component
 public class GestionePrenotazioniRunner implements CommandLineRunner {
-
-	@Autowired
+@Autowired
 	private PrenotazioniService prenotazioniService;
 
 	@Override

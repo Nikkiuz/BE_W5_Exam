@@ -8,6 +8,7 @@ public class BeW5ExamApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(BeW5ExamApplication.class, args);
+		System.exit(0);
 	}
 
 }

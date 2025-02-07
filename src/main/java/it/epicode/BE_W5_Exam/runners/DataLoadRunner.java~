@@ -1,4 +1,4 @@
-/*package it.epicode.BE_W5_Exam.runners;
+package it.epicode.BE_W5_Exam.runners;
 
 import it.epicode.BE_W5_Exam.edificio.Edificio;
 import it.epicode.BE_W5_Exam.edificio.EdificioRepository;
@@ -59,8 +59,7 @@ public class DataLoadRunner implements CommandLineRunner {
 		Utente u4 = new Utente(null,"OrecchietteConLeCimDeRep", "Lino Banfi", "utente4@utente4.it");
 		utenteRepository.save(u4);
 
+
 	}
 
 }
-*/
-
