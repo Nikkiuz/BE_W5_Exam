@@ -13,7 +13,7 @@ import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
 @Component
-public class DataLoad implements CommandLineRunner {
+public class DataLoadRunner implements CommandLineRunner {
 	@Autowired
 	private final EdificioRepository edificioRepository;
 	@Autowired
@@ -21,7 +21,7 @@ public class DataLoad implements CommandLineRunner {
 	@Autowired
 	private final UtenteRepository utenteRepository;
 
-	public DataLoad(EdificioRepository edificioRepository, PostazioneRepository postazioneRepository, UtenteRepository utenteRepository) {
+	public DataLoadRunner(EdificioRepository edificioRepository, PostazioneRepository postazioneRepository, UtenteRepository utenteRepository) {
 		this.edificioRepository = edificioRepository;
 		this.postazioneRepository = postazioneRepository;
 		this.utenteRepository = utenteRepository;
