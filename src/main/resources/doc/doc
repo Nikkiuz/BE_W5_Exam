@@ -1,0 +1,19 @@
+Applicativo per la gestione delle prenotazioni delle postazioni aziendali.
+
+Entità Postazione -> id, descrizione, tipo(enum 'privato, openspace, salaRiunioni'),
+                    maxOccupanti, edificio.
+
+Entità Edificio -> id, nome, indirizzo, città.
+
+Entità Utente -> id, username, nomeCompleto, email.
+
+Prenotazione postazione -> dura per un solo giorno e può essere effettuata so se la
+                           postazione risulta libera nel giorno selezionato.
+                           Un utente può avere più prenotazioni in corso ma non
+                           può prenotare più di una postazione per una particolare
+                           data.
+
+Ricerca postazione -> un utente può fare la ricerca indicando il 'tipo' desiderato e
+                      la 'città' di interesse.
+
+
