@@ -18,7 +18,7 @@ public class GestionePrenotazioniRunner implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 		Long utenteId = 1L;
 		Long postazioneId = 1L;
-		LocalDate dataPrenotazione = LocalDate.now().plusDays(1);
+		LocalDate dataPrenotazione = LocalDate.now().plusDays(2);
 
 		try {
 			Prenotazione prenotazione = prenotazioniService.prenotaPostazione(utenteId, postazioneId, dataPrenotazione);

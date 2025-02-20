@@ -16,8 +16,10 @@ public class Postazione {
 	@GeneratedValue(strategy = GenerationType.SEQUENCE)
 	private Long id;
 	private String descrizione;
+
 	@Enumerated(EnumType.STRING)
 	private PostazioneEnum tipo;
+
 	private int maxOccupanti;
 	@ManyToOne
 	private Edificio edificio;
